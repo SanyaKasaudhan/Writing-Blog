@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="full.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <!-- nav bar -->
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+  <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon" id="Navbar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30"></a>
+      <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+      </ul>
+      <span class="navbar-text">
+          <a data-toggle="modal" data-target="#loginModal">
+          <span class="fa fa-sign-in"></span> Login</a>
+      </span>
+  </div>
+  </div>
+</nav>
+
+<!-- Modal content-->
+<div id="loginModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg" role="content">
+      
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title">Login </h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="form-row">
+                      <div class="form-group col-sm-4">
+                              <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                              <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email"><br/>
+                      </div><br/>
+                      <div class="form-group col-sm-4">
+                          <label class="sr-only" for="exampleInputPassword3">Password</label>
+                          <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"><br/>
+                      </div><br/>
+                      <div class="col-sm-auto">
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label"> Remember me
+                              </label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                      <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+ 
+<!-- background-->
+      <section class="hero-image" >
+        <div class="content">
+          <h1>Vague Tales</h1>
+          <h3>We hope you would like our blog</h3>
+        </div>
+      </section>
+      <br /> 
+
+      <!-- writing image -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+        <div class="row">
+          <div class="col-3"  style="margin-left:-115px;">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/img3.JPEG" alt="Avatar" style="width:400px;height:400px;">
+          </div>
+          <div class="flip-card-back">
+            <h1 style="padding-top: 25px;"> Explanation </h1> 
+            <p></p> 
+            <div class="sm">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="flip-card" style="margin-left:155px; margin-bottom: 65px;">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/img4.JPEG" alt="Avatar" style="width:400px;height:400px;">
+          </div>
+          <div class="flip-card-back">
+            <h1 style="padding-top: 25px;"> Explanation </h1> 
+            <p></p> 
+            <div class="sm">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="flip-card" style="margin-left:315px;">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/img6.JPG" alt="Avatar" style="width:400px;height:400px;">
+          </div>
+          <div class="flip-card-back">
+            <h1 style="padding-top: 25px;"> Explanation </h1> 
+            <p></p> 
+            <div class="sm">
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+        </div>
+    </div>
+</body>
+</html>
